@@ -44,6 +44,7 @@ namespace KjemiaWeb
             provider.Mappings[".plist"] = "application/xml";
             provider.Mappings[".ipa"] = "application/octet-stream";
             provider.Mappings[".apk"] = "application/octet-stream";
+            app.UseStaticFiles();
             app.UseStaticFiles(new StaticFileOptions
             {
                 FileProvider = new PhysicalFileProvider(
