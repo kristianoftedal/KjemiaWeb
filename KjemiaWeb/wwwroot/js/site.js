@@ -25,32 +25,32 @@ function KompendiumModel() {
     self.poststed = ko.observable();
     self.highSchool = ko.observable();
     self.showError = ko.computed(function () {
-        if (self.highSchool() != undefined && self.highSchool()) {
+        if (self.highSchool() !== undefined && self.highSchool()) {
             return self.highSchool().toLowerCase().indexOf("akademiet") !== -1;
         }
     });
     self.validate = function () {
-        if (self.name() == undefined || self.name() == '') {
+        if (self.name() === undefined || self.name() === '') {
             self.nameError(true);
             return false;
         }
-        if (self.phone() == undefined || self.phone() == '') {
+        if (self.phone() === undefined || self.phone() === '') {
             self.phoneError(true);
             return false;
         }
-        if (self.address() == undefined || self.address() == '') {
+        if (self.address() === undefined || self.address() === '') {
             self.addressError(true);
             return false;
         }
-        if (self.postnummer() == undefined || self.postnummer() == '') {
+        if (self.postnummer() === undefined || self.postnummer() === '') {
             self.postnummerError(true);
             return false;
         }
-        if (self.poststed() == undefined || self.poststed() == '') {
+        if (self.poststed() === undefined || self.poststed() === '') {
             self.poststedError(true);
             return false;
         }
-        if (self.highSchool() == undefined || self.highSchool() == '') {
+        if (self.highSchool() === undefined || self.highSchool() === '') {
             self.highSchoolError(true);
             return false;
         }
@@ -86,7 +86,7 @@ function ExamModel() {
     self.phone = ko.observable();
     self.highSchool = ko.observable();
     self.showError = ko.computed(function () {
-        if (self.highSchool() != undefined && self.highSchool() != '') {
+        if (self.highSchool() !== undefined && self.highSchool() !== '') {
             return self.highSchool().toLowerCase().indexOf("akademiet") !== -1;
         }
     });
@@ -103,7 +103,7 @@ function HoursModel() {
     self.email = ko.observable();
     self.highSchool = ko.observable();
     self.showError = ko.computed(function () {
-        if (self.highSchool() != undefined && self.highSchool() != '') {
+        if (self.highSchool() !== undefined && self.highSchool() !== '') {
             return self.highSchool().toLowerCase().indexOf("akademiet") !== -1;
         }
     });
