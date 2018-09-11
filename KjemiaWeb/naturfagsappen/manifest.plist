@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://kjemia.no/downloads/KjemiaQuiz.ipa</string>
+					<string>https://github.com/kristianoftedal/Naturfagsappen/raw/master/KjemiaQuiz.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>http://kjemia.no/downloads/icon-57x57.png</string>
+					<string>https://kjemia.no/downloads/icon-57x57.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>http://kjemia.no/downloads/icon-512x512.png</string>
+					<string>https://kjemia.no/downloads/icon-512x512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -31,7 +31,7 @@
 				<key>bundle-identifier</key>
 				<string>no.kjemia.naturfagsappen</string>
 				<key>bundle-version</key>
-				<string>1.12</string>
+				<string>1.13</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
